@@ -1,0 +1,7 @@
+jupyter
+ipykernel
+spacy
+click
+scikit-learn
+pandas
+numpy
