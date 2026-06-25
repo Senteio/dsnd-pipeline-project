@@ -1,4 +1,4 @@
-# Fashion Forward Forecasting
+# Fashion Forward Forecasting - Public version
 
 **Udacity Data Scientist Nanodegree — DS Pipelines Project**
 
@@ -191,7 +191,7 @@ actually not recommended — acceptable given the business context.
 - **Recall vs. Precision tradeoff** — high recall means "don't miss the positives";
   high precision means "don't cry wolf." The right metric depends entirely on the
   business cost of each error type.
-- **Class imbalance shapes your metrics** — with 81.6% of data labeled "recommended,"
+- **Class imbalance shapes the metrics** — with 81.6% of data labeled "recommended,"
   a model that always predicts "recommended" would get 81.6% accuracy for free.
   Accuracy alone doesn't tell the whole story; precision and recall together do.
 - **Two text pipelines add significant compute cost** — running spaCy through both
